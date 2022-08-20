@@ -1,4 +1,4 @@
-# Driver Fixation Prediction based on Transformer
+# Driver Fixation Prediction based on CNN-Transformer Hybrid Model
 ## Environment
     Python 3.7.5
     Pytorch 1.11
@@ -17,3 +17,6 @@ The BDD-A (Berkeley DeepDrive-Attention) is also an alternative. Details can be 
 The demo video can be found in this repository `/demo/fixation_prediction_demo.mp4`
 
 ![demo_picture](https://github.com/LucasLee-ff/Driver-fixation-prediction/blob/master/demo/demo.jpg)
+
+## Reference
+The code of ViT is mainly from [TransUNet](https://github.com/Beckschen/TransUNet).
