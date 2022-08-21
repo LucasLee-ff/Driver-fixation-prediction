@@ -6,6 +6,12 @@
 ## Introduction
 This is a CNN-Transformer based model named TransCDNN. It extracts low-level features on the images from driving scenarios through a multi-layer convolutional neural network and then uses Transformer encoder in the last part of the feature extraction procedure to encode high-level features. With CNN's ability to capture patterns between adjacent pixels and Transformer's excellent capacity for modeling long-range representations, this model performs better in extracting high-level semantic features of images.
 
+## Model Architecture
+The model is mainly composed of encoder and decoder. The encoder includes CNN encoder and Transformer encoder. The decoder is the combination of a series of convolution and up-sampling. Skip connection is also implemented in this model
+
+![model](https://github.com/LucasLee-ff/Driver-fixation-prediction/blob/master/demo/model.jpg)
+
+
 ## Datasets
 ### TrafficGaze
 The main dataset used in this project is [TrafficGaze](https://github.com/taodeng/CDNN-traffic-saliency) from University of Electronic Science and Technology of China. It can be directly used after downloading on the url above.
