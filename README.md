@@ -20,7 +20,7 @@ Directory `/TransCDNN_model` includes the following files
     ecanet.py
     vit_cdnn_modeling.py
 `config.py` determines some configurations of the TransCDNN model.  
-`conv_encoder.py` is the modeling of the CNN component.
+`conv_encoder.py` is the modeling of the CNN component.  
 `ecanet.py` is not a must, you can insert this channel attention module anywhere you want.  
 `vit_cdnn_modeling.py` is the modeling of the entire TransCDNN model. You can also find a model named "DeepCDNN" in this file, which is a fixation prediction model with only CNN and decoder.  
 
